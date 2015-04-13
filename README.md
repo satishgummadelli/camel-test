@@ -6,7 +6,7 @@
 		
 
 #####Notes
-I have tested the application using the lated activemq-core jar file and did it using old 5.4.3
+I have tested the application using the latest activemq-core jar file and did it using old 5.4.3
 	
 
 #####Running
