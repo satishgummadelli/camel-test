@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="org.satishg.camel.example.routes.SampleMessageRouterTest" time="0.382" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/satishgummadelli/eurostar/eclipse_workspaces/eif_accounts/camel-test"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5r/lwg1ht5n3rd1txw5trc3dz9c0000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/satishgummadelli/eurostar/eclipse_workspaces/eif_accounts/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf592799768307623603.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/satishgummadelli/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/satishgummadelli"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="satishgummadelli"/>
+    <property name="java.class.path" value="/Users/ishi/sw/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.0.20140605-2032/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="java.ext.dirs" value="/Users/satishgummadelli/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/satishgummadelli/eurostar/eclipse_workspaces/eif_accounts/camel-test/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.satishg.camel.example.routes.SampleMessageRouterTest" name="test" time="0.382">
+    <error message="connectionFactory must be specified" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:293)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1126)
+	at org.apache.camel.component.jms.JmsConfiguration.getConnectionFactory(JmsConfiguration.java:480)
+	at org.apache.camel.component.jms.JmsConfiguration.createListenerConnectionFactory(JmsConfiguration.java:1135)
+	at org.apache.camel.component.jms.JmsConfiguration.getListenerConnectionFactory(JmsConfiguration.java:499)
+	at org.apache.camel.component.jms.JmsConfiguration.configureMessageListenerContainer(JmsConfiguration.java:962)
+	at org.apache.camel.component.jms.JmsConfiguration.createMessageListenerContainer(JmsConfiguration.java:443)
+	at org.apache.camel.component.jms.JmsEndpoint.createMessageListenerContainer(JmsEndpoint.java:165)
+	at org.apache.camel.component.jms.JmsEndpoint.createConsumer(JmsEndpoint.java:160)
+	at org.apache.camel.component.jms.JmsEndpoint.createConsumer(JmsEndpoint.java:70)
+	at org.apache.camel.impl.EventDrivenConsumerRoute.addServices(EventDrivenConsumerRoute.java:65)
+	at org.apache.camel.impl.DefaultRoute.onStartingServices(DefaultRoute.java:85)
+	at org.apache.camel.impl.RouteService.warmUp(RouteService.java:158)
+	at org.apache.camel.impl.DefaultCamelContext.doWarmUpRoutes(DefaultCamelContext.java:3090)
+	at org.apache.camel.impl.DefaultCamelContext.safelyStartRouteServices(DefaultCamelContext.java:3020)
+	at org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRoutes(DefaultCamelContext.java:2797)
+	at org.apache.camel.impl.DefaultCamelContext.doStartCamel(DefaultCamelContext.java:2653)
+	at org.apache.camel.impl.DefaultCamelContext.access$000(DefaultCamelContext.java:167)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:2467)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:2463)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:2486)
+	at org.apache.camel.impl.DefaultCamelContext.doStart(DefaultCamelContext.java:2463)
+	at org.apache.camel.support.ServiceSupport.start(ServiceSupport.java:61)
+	at org.apache.camel.impl.DefaultCamelContext.start(DefaultCamelContext.java:2432)
+	at org.apache.camel.test.junit4.CamelTestSupport.startCamelContext(CamelTestSupport.java:477)
+	at org.apache.camel.test.junit4.CamelTestSupport.doSetUp(CamelTestSupport.java:311)
+	at org.apache.camel.test.junit4.CamelTestSupport.setUp(CamelTestSupport.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>16:29:30.652 [main] INFO  o.s.c.e.r.SampleMessageRouterTest - ********************************************************************************
+16:29:30.656 [main] INFO  o.s.c.e.r.SampleMessageRouterTest - Testing: test(org.satishg.camel.example.routes.SampleMessageRouterTest)
+16:29:30.656 [main] INFO  o.s.c.e.r.SampleMessageRouterTest - ********************************************************************************
+16:29:30.656 [main] DEBUG o.s.c.e.r.SampleMessageRouterTest - setUp test
+16:29:30.836 [main] DEBUG o.a.c.impl.SharedProducerServicePool - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@612fc6eb
+16:29:30.839 [main] DEBUG o.a.camel.impl.DefaultCamelContext - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@37374a5e to resolve component with name: properties
+16:29:30.839 [main] DEBUG o.a.c.impl.DefaultComponentResolver - Found component: properties in registry: null
+16:29:30.843 [main] DEBUG o.a.c.impl.DefaultComponentResolver - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
+16:29:30.857 [main] DEBUG o.s.c.e.r.SampleMessageRouterTest - Using created route builder: Routes: []
+16:29:30.857 [main] DEBUG o.a.camel.impl.DefaultCamelContext - Adding routes from builder: Routes: []
+16:29:30.892 [main] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.15.0 (CamelContext: camel-1) is starting
+16:29:30.892 [main] DEBUG o.a.camel.impl.DefaultCamelContext - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@279ad2e3, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@58134517, ApplicationContextClassLoader=null
+16:29:30.892 [main] INFO  o.a.c.m.DefaultManagementStrategy - JMX is disabled
+16:29:30.902 [main] DEBUG o.a.c.i.c.AnnotationTypeConverterLoader - Found 3 packages with 16 @Converter classes to load
+16:29:30.923 [main] DEBUG o.a.c.i.c.AnnotationTypeConverterLoader - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/Users/satishgummadelli/.m2/repository/org/apache/camel/camel-spring/2.15.0/camel-spring-2.15.0.jar!/META-INF/services/org/apache/camel/TypeConverter
+16:29:30.923 [main] DEBUG o.a.c.i.c.AnnotationTypeConverterLoader - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/Users/satishgummadelli/.m2/repository/org/apache/camel/camel-core/2.15.0/camel-core-2.15.0.jar!/META-INF/services/org/apache/camel/TypeConverter
+16:29:30.924 [main] DEBUG o.a.c.i.c.AnnotationTypeConverterLoader - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/Users/satishgummadelli/.m2/repository/org/apache/activemq/activemq-camel/5.11.0/activemq-camel-5.11.0.jar!/META-INF/services/org/apache/camel/TypeConverter
+16:29:30.926 [main] DEBUG o.a.c.i.c.AnnotationTypeConverterLoader - Loaded 3 @Converter classes
+16:29:30.934 [main] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 186 type converters
+16:29:30.943 [main] DEBUG o.a.camel.impl.DefaultCamelContext - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@37374a5e to resolve component with name: jms
+16:29:30.943 [main] DEBUG o.a.c.impl.DefaultComponentResolver - Found component: jms in registry: null
+16:29:30.945 [main] DEBUG o.a.c.impl.DefaultComponentResolver - Found component: jms via type: org.apache.camel.component.jms.JmsComponent via: META-INF/services/org/apache/camel/component/jms
+16:29:30.960 [main] DEBUG o.apache.camel.impl.DefaultComponent - Creating endpoint uri=[jms://invoices], path=[invoices]
+16:29:30.964 [main] DEBUG o.a.camel.impl.DefaultCamelContext - jms://invoices converted to endpoint: Endpoint[jms://invoices] by component: org.apache.camel.component.jms.JmsComponent@50b472aa
+16:29:30.974 [main] DEBUG o.a.c.p.interceptor.DefaultChannel - Initialize channel for target: &apos;Transform[simple{Transforming ${in.body} ....}]&apos;
+16:29:30.987 [main] DEBUG o.a.c.p.interceptor.DefaultChannel - Initialize channel for target: &apos;process[Processor@0x47af7f3d]&apos;
+16:29:30.998 [main] DEBUG org.apache.camel.model.LogDefinition - The LogName is null. Falling back to create logger by using the route id route1.
+16:29:30.998 [main] DEBUG o.a.c.p.interceptor.DefaultChannel - Initialize channel for target: &apos;Log[jms:invoice is logged]&apos;
+16:29:31.003 [main] INFO  o.a.camel.impl.DefaultCamelContext - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+16:29:31.003 [main] INFO  o.a.camel.impl.DefaultCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+16:29:31.005 [main] DEBUG o.a.camel.impl.DefaultCamelContext - Warming up route id: route1 having autoStartup=true
+16:29:31.005 [main] DEBUG org.apache.camel.impl.RouteService - Starting services on route: route1
+16:29:31.021 [main] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.15.0 (CamelContext: camel-1) is shutting down
+16:29:31.021 [main] DEBUG o.a.c.i.DefaultAsyncProcessorAwaitManager - Shutting down with no inflight threads.
+16:29:31.022 [main] DEBUG org.apache.camel.impl.RouteService - Stopping services on route: route1
+16:29:31.022 [main] DEBUG org.apache.camel.impl.RouteService - Shutting down services on route: route1
+16:29:31.023 [main] DEBUG o.a.c.impl.DefaultInflightRepository - Shutting down with no inflight exchanges.
+16:29:31.023 [main] DEBUG o.a.c.impl.SharedProducerServicePool - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@612fc6eb
+16:29:31.023 [main] DEBUG org.apache.camel.util.EventHelper - Ignoring notifying event Stopped CamelContext: camel-1. The EventNotifier has not been started yet: org.apache.camel.impl.DefaultRuntimeEndpointRegistry@3b69e7d1
+16:29:31.023 [main] DEBUG o.a.camel.util.IntrospectionSupport - Clearing cache[size=5, hits=4, misses=5, evicted=0]
+16:29:31.026 [main] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.15.0 (CamelContext: camel-1) uptime 0.133 seconds
+16:29:31.026 [main] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.15.0 (CamelContext: camel-1) is shutdown in 0.003 seconds
+16:29:31.026 [main] INFO  o.s.c.e.r.SampleMessageRouterTest - ********************************************************************************
+16:29:31.026 [main] INFO  o.s.c.e.r.SampleMessageRouterTest - Testing done: test(org.satishg.camel.example.routes.SampleMessageRouterTest)
+16:29:31.026 [main] INFO  o.s.c.e.r.SampleMessageRouterTest - Took: 0.377 seconds (377 millis)
+16:29:31.026 [main] INFO  o.s.c.e.r.SampleMessageRouterTest - ********************************************************************************
+16:29:31.026 [main] DEBUG o.a.c.test.junit4.CamelTestSupport - tearDown test
+</system-out>
+  </testcase>
+</testsuite>
